@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* header qismi */
+
+.header-img {
+    z-index: 100;
+    overflow: hidden;
+}
+
+.header-img img {
+    position: absolute;
+    z-index: -2;
+    display: inline;
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+}
+.header-img div {
+    position: absolute;
+    display: inline;
+    background-color: black;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    opacity: 60%;
+}
+.header-img h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 400px;
+    font-size: 40px;
+}
+.header-img h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.header-img li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img li a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: white;
+    padding-top: 30px;
+    font-size: 15px;
+    transition: opacity 1s;
+    opacity: 80%;
+}
+.header-img li a:hover {
+    opacity: 50%;
+}
+
+/* header qismi tugadi */
+
+.div {
+    position: relative;
+    display: flex;
+    z-index: -9;
+    width: 80%;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 80px;
+    background-color: yellow;
+    transform: rotate(-2deg);
+}
+
+/* body qismi */
+
+.body-background {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    z-index: -10;
+    margin-top: -20px;
+    width: 100%;
+    height: 2100px;
+    background-color: rgb(234, 234, 235);
+}
+
+.body-background img {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+
+.body-background h3 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 1000px;
+    color: slategrey;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.body-background span {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* scroll */
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: yellow;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 70px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    
+    /* header qismi */
+    
+    .header-img {
+        z-index: 100;
+        overflow: hidden;
+    }
+    
+    .header-img img {
+        position: absolute;
+        z-index: -2;
+        display: inline;
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+    }
+    .header-img div {
+        position: absolute;
+        display: inline;
+        background-color: black;
+        height: 600px;
+        width: 100%;
+        z-index: -1;
+        opacity: 60%;
+    }
+    .header-img h1 {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        letter-spacing: 2px;
+        color: white;
+        margin-top: 400px;
+        font-size: 25px;
+    }
+    .header-img li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-img li a {
+        text-decoration: none;
+        padding-left: 30px;
+        color: white;
+        padding-top: 30px;
+        font-size: 15px;
+        transition: opacity 1s;
+        opacity: 80%;
+    }
+    .header-img li a:hover {
+        opacity: 50%;
+    }
+    
+    /* header qismi tugadi */
+
+    .div {
+        position: relative;
+        display: flex;
+        z-index: -9;
+        width: 80%;
+        height: 60px;
+        margin-left: 20%;
+        margin-top: 10px;
+        background-color: yellow;
+        transform: rotate(-2deg);
+    }
+
+    /* body qismi */
+
+.body-background {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    z-index: -10;
+    margin-top: -20px;
+    width: 100%;
+    height: 3500px;
+    background-color: rgb(234, 234, 235);
+}
+
+.body-background img {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid yellow;
+}
+.body-background h3 {
+    margin-top: 50px;
+    width: 1000px;
+    color: slategrey;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* scroll */
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track{
+    background-color: yellow;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 70px;
+}
+}
