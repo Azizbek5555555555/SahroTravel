@@ -114,17 +114,20 @@ nav h3 {
 
 #center {
 	width: 100%;
-	height: 65vh;
+	height: 5vh;
 	margin-top: 4rem;
 	padding-bottom: 2.5vw;
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
+	align-items: center;
+	justify-content: center;
 	border-bottom: 1px solid #0000003c;
 }
 
 #left h3 {
-	width: 25vw;
+	text-align: center;
+	/* width: 25vw; */
 	font-size: 1.8vw;
 	line-height: 2vw;
 }
@@ -284,8 +287,8 @@ nav h3 {
 }
 
 #bottom-part2 {
-	width: 20%;
-	margin-top: 15rem;
+	width: 30%;
+	margin-top: 5rem;
 	display: flex;
 	flex-direction: column;
 }
@@ -422,14 +425,14 @@ nav h3 {
     object-fit: cover;
 }
 
-.swiper-wrapper .card {
+/* .swiper-wrapper .card {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
 	padding-left: 34px !important;
 	gap: 2rem;
-}
+} */
 
 .card p {
 	font-size: 1.1rem;

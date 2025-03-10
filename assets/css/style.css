@@ -469,6 +469,81 @@ body { background: var(--white); }
 
 
 
+/* Dropdown menyuni styling */
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown summary {
+  color: white;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  position: relative;
+}
+
+.dropdown summary::-webkit-details-marker {
+  display: none; /* Default uchburchakni yo‘q qilish */
+}
+
+.dropdown summary::after {
+  content: '\25BE'; /* Pastga yo‘nalgan uchburchak */
+  font-size: 35px;
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover summary::after {
+  transform: rotate(-180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 10px;
+  min-width: 200px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px;
+}
+
+.dropdown-menu a:hover {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.header.scrolled .dropdown summary {
+  color: black; /* Skroll bo‘lganda qora bo‘ladi */
+}
+
+
+
+
 
 
 /*-----------------------------------*\
@@ -476,11 +551,11 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/backgr.jpg");
+  background-image: url("../images/registan-square.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.7);
+  background-color: hsla(0, 0%, 0%, 0.301);
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
@@ -1397,3 +1472,9 @@ address {
   .container { max-width: 1180px; }
 
 }
+
+
+
+
+
+

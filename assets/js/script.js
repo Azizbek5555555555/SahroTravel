@@ -47,6 +47,41 @@ window.addEventListener("scroll", function () {
 
 
 
+function setupDropdowns() {
+  document.querySelectorAll(".dropdown").forEach((dropdown) => {
+    dropdown.addEventListener("mouseenter", function () {
+      this.setAttribute("open", "true");
+    });
+
+    dropdown.addEventListener("mouseleave", function () {
+      this.removeAttribute("open");
+    });
+  });
+}
+
+// Sahifa yuklanganda dropdownlar ishlashi uchun
+document.addEventListener("DOMContentLoaded", setupDropdowns);
+
+// SPA (Single Page Application) ishlatilsa yoki dinamik yuklash bo‘lsa, ushbu kodni qayta ishga tushirish kerak
+document.addEventListener("readystatechange", function () {
+  if (document.readyState === "complete") {
+    setupDropdowns();
+  }
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    let header = document.querySelector(".header");
+    if (window.scrollY > 50) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+});
 
 
 
@@ -441,20 +476,20 @@ document.addEventListener('DOMContentLoaded', function () {
     none44: '/ per person',
     none45: 'Book now',
     none46: 'Learn more',
-    none47: 'Trip from Samarkand to Shahrisabz 2024',
-    none48: 'Shahrisabz is the birthplace of the 14th-century Turko-Mongol conqueror Amir Temur or Temur. Translated, Shahrisabz means “Green City” and is located in the south of Uzbekistan, about 90 km from Samarkand.',
+    none47: 'KYRGYZSTAN “A FAIRY TALE FROM THE LAND OF NOMADS”',
+    none48: 'With the following information we would like to give you some important travel tips and at the same time ask you to take the time to read them carefully. We wish you a pleasant stay and a wonderful and eventful trip.',
     none49: '10 days – 9 nights',
     none50: 'Quantity: Max:30',
-    none51: 'Samarkand – Shakhrisabz – Samarkand',
+    none51: 'Bishkek – Osh – Issyk-Kul',
     none52: '(20 comments)',
     none53: '/ per person',
     none54: 'Book now',
     none55: 'Learn more',
-    none56: 'Internal travel has a positive effect on the human psyche.',
-    none57: 'Ashkent is a wonderful combination of a modern metropolis and the unique colors of an eastern city.',
+    none56: 'TURKMENISTAN „EIN LAND TAUSEND GEHEIMNISSE“',
+    none57: 'Eine Reise nach Turkmenistan lässt sich nicht so einfach auf eigene Faust planen und durchführen, daher ist es am besten, die Dienste eines kompetenten Reisebüros in Anspruch zu nehmen. Bevor Sie nach Turkmenistan reisen, empfehlen wir Ihnen, im Voraus ein Hotel zu buchen oder eine Tour zu buchen.',
     none58: '11 days – 10 nights',
     none59: 'Quantity: Max:30',
-    none60: 'Khiva-Urgench-Tashkent',
+    none60: 'Ashgabat – Mary – Turkmenbashi',
     none61: '(41 comments)',
     none62: '/ per person',
     none63: 'Book now',
@@ -506,9 +541,26 @@ document.addEventListener('DOMContentLoaded', function () {
     none106: 'Schengen visa assistance for any part of the world.',
     none107: 'Best possible ticket prices from real airlines',
     none108: 'Ideally based on data we have received from our customers over the years of the companys existence.',
+    
 
 
 
+
+
+    look1: 'Our service',
+    look2: 'Visa',
+    look3: 'Hotel',
+    look4: 'Transport',
+    look5: 'Airlines',
+    look6: 'Railways',
+    look7: 'Packages',
+    look8: 'Kyrgyzstan',
+    look9: 'Tajikistan',
+    look10: 'Turkmenistan',
+    look11: 'Uzbekistan',
+    look12: 'Kazakhstan',
+
+    
 
 
 
@@ -890,20 +942,20 @@ document.addEventListener('DOMContentLoaded', function () {
     none44: '/ pro Person',
     none45: 'Buchen Sie jetzt',
     none46: 'Erfahren Sie mehr',
-    none47: 'Reise von Samarkand nach Shahrisabz 2024',
-    none48: 'Shahrisabz ist der Geburtsort des türkisch-mongolischen Eroberers Amir Temur oder Temur aus dem 14. Jahrhundert. Übersetzt bedeutet Shahrisabz „Grüne Stadt“ und liegt im Süden Usbekistans, etwa 90 km von Samarkand entfernt.',
+    none47: 'KIRGISISTAN „EIN MÄRCHEN AUS DEM NOMADENLAND“',
+    none48: 'Mit den folgenden Informationen möchten wir Ihnen einige wichtige Reisetipps geben und Sie gleichzeitig bitten, sich die Zeit zu nehmen, diese aufmerksam durchzulesen. Wir wünschen Ihnen einen angenehmen Aufenthalt und eine wunderbare und erlebnisreiche Reise.',
     none49: '10 Tage – 9 Nächte',
     none50: 'Menge: Max:30',
-    none51: 'Samarkand – Shakhrisabz – Samarkand',
+    none51: 'Bishkek – Osh – Issyk-Kul',
     none52: '(20 Kommentare)',
     none53: '/ pro Person',
     none54: 'Buchen Sie jetzt',
     none55: 'Erfahren Sie mehr',
-    none56: 'Interne Reisen wirken sich positiv auf die menschliche Psyche aus.',
-    none57: 'Aschkent ist eine wunderbare Kombination aus einer modernen Metropole und den einzigartigen Farben einer östlichen Stadt.',
+    none56: 'TURKMENISTAN „EIN LAND TAUSEND GEHEIMNISSE“',
+    none57: 'Eine Reise nach Turkmenistan lässt sich nicht so einfach auf eigene Faust planen und durchführen, daher ist es am besten, die Dienste eines kompetenten Reisebüros in Anspruch zu nehmen. Bevor Sie nach Turkmenistan reisen, empfehlen wir Ihnen, im Voraus ein Hotel zu buchen oder eine Tour zu buchen. ',
     none58: '11 Tage – 10 Nächte',
     none59: 'Menge: Max:30',
-    none60: 'Chiwa-Urgentsch-Taschkent',
+    none60: 'Ashgabat – Mary – Turkmenbashi',
     none61: '(41 Kommentare)',
     none62: '/ pro Person',
     none63: 'Buchen Sie jetzt',
@@ -955,7 +1007,22 @@ document.addEventListener('DOMContentLoaded', function () {
     none106: 'Unterstützung bei Schengen-Visa für jeden Teil der Welt.',
     none107: 'Bestmögliche Ticketpreise von echten Fluggesellschaften',
     none108: 'Idealerweise basierend auf Daten, die wir von unseren Kunden über die Jahre des Bestehens des Unternehmens erhalten haben.',
+    
 
+    look1: 'Unser Service',
+    look2: 'Visum',
+    look3: 'Hotel',
+    look4: 'Transport',
+    look5: 'Fluglinien',
+    look6: 'Eisenbahnen',
+    look7: 'Pakete',
+    look8: 'Kirgisistan',
+    look9: 'Tadschikistan',
+    look10: 'Turkmenistan',
+    look11: 'Usbekistan',
+    look12: 'Kasachstan',
+
+    
     
     
 
@@ -994,3 +1061,12 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log(flagButtons); // Konsolda tekshirib ko'ring
 
 });
+
+
+
+
+
+
+
+
+
