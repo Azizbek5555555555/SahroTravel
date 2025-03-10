@@ -551,11 +551,11 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/registan-square.jpg");
+  background-image: url("../images/samarqand-0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: hsla(0, 0%, 0%, 0.301);
+  background-color: hsla(0, 0%, 8%, 0.11);
   background-blend-mode: overlay;
   display: grid;
   place-items: center;
