@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
     none1: 'Our contacts:',
     none2: 'home',
     none3: 'About Us',
-    none4: 'Travel packages',
-    none5: 'Travel package prices',
+    none4: 'Travel tours',
+    none5: 'Information',
     none6: 'Access',
     none7: 'Visa',
     none77: 'We ensure that all our customers receive the best services and experiences.',
@@ -117,13 +117,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+    none700: 'Information',
+    visa200: 'We would like to introduce you to a young country – Uzbekistan, whose history goes back to ancient times. Uzbekistan is the land of the sun and smiles. Here lives an ancient ethnic group, which linguistically and culturally belongs to the Turkic peoples. Over the centuries, the country has experienced both periods of prosperity and decline.',
+    visa300: 'There are many reasons that make Uzbekistan a classic destination more attractive than other tourist locations: the openness and hospitality of the people, the diverse architecture of the legendary cities along ancient caravan routes, handicrafts related to family traditions, and last but not least, the untouched flora and fauna of the magnificent mountain and desert landscapes. All of this contributes to an unforgettable vacation in the fascinating heart of the Great Silk Road!',
+    visa400: 'The travel agency "Sahro Travel" organizes and conducts various types of tours: cultural trips, trekking tours, hiking and nature trips, expedition tours, combined tours in Central Asia, eco-tours, cycling tours, horse trekking in the mountains, camel safaris in the desert, culinary tours, informational trips, and special tours. Therefore, we offer individual tours with great success for families and friends, as well as group tours for like-minded people.',
+    visa500: 'Since our founding in 2007, customer satisfaction, performance, reliability, individual service, competence, and responsibility have been the focus of our company concept. Our team consists of highly motivated, qualified, dynamic young people who are helpful and take care of customers around the clock. After all, the customer is king for us!',
+    visa600: 'We offer our customers and partners hotel bookings, transportation services, and competent tour guides in various languages. For foreign MICE groups, we assist in organizing their conferences, meetings, as well as nature, hiking, and trekking trips in Tajikistan and Kyrgyzstan.',
+    visa700: 'Our goal is to provide an unforgettable journey with a high level of service. We would like to present the Central Asia region to you from different perspectives, diverse and exciting. Therefore, our experience is focused on designing the trip according to your wishes and organizing it "cheaper", "faster", and "better".',
+    visa800: 'Let your time and desired trip be trusted to us! You can contact us, and your travel request will be processed and returned as quickly as possible by our highly qualified staff. We are always available to assist you!',
+    visa900: 'To apply for a visa, foreign nationals and stateless persons must submit the following documents to the diplomatic or consular representation of Uzbekistan abroad:',
+    visa470: 'The "Sahro Travel" team wishes you a wonderful journey through the legendary cities of the Great Silk Road and Central Asia.',
+    
+
+
+
+
+
+    
+
+
     look1: 'Our service',
     look2: 'Visa',
     look3: 'Hotel',
     look4: 'Transport',
     look5: 'Airlines',
     look6: 'Railways',
-    look7: 'Packages',
+    look7: 'Destinations',
     look8: 'Kyrgyzstan',
     look9: 'Tajikistan',
     look10: 'Turkmenistan',
@@ -151,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function () {
     visa17: 'up to 7 days; up to 15 days; up to 30 days; up to 3 months; up to 6 months; up to 1 year. Note: Each additional entry increases the fee by $10.',
     visa18: 'b- For multiple entry visas:',
     visa19: 'up to 6 months; up to 1 year. c) For transit visas: up to 72 hours; double entry transit visa. d) For group visas (groups must consist of more than 5 people, excluding children under 16 years of age).',
-    visa20: 'SARBON TRANS TOUR, [30.10.2022 20:56] up to 15 days; up to 30 days.',
+    visa20: 'SAHRO TRAVEL, [30.10.2022 20:56] up to 15 days; up to 30 days.',
     visa21: 'In addition to these fees, fees for reimbursement of actual costs related to visa issuance (administrative fees) are also paid. The amount of these fees depends on the place where the visa is issued (regardless of the applicants citizenship).',
     visa22: '*Citizens of countries with which Uzbekistan has concluded relevant bilateral agreements may be subject to different entry visa procedures.',
     visa23: 'visa requirements for some countries',
@@ -166,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function () {
     visa32: '3. Visa-free entry to the Republic of Uzbekistan for foreign citizens up to 16 years of age with a biometric travel document. In this case, they must be accompanied by a legal representative and can stay in Uzbekistan for the duration of the accompanying persons visa, but not more than ninety days from the date of entry into the country.',
     visa33: '4. A visa-free regime applies to China, Hungary, Tajikistan and Turkmenistan (up to 30 days), Vietnam and the Republic of Korea (up to 60 days), Brazil, Latvia, Poland, Romania, Singapore, Slovakia, Estonia, Kuwait and Turkey (up to 90 days).',
     visa34: 'Citizens of these countries who hold a diplomatic passport and are accredited as employees of a diplomatic mission or consulate of their country on the territory of Uzbekistan, as well as their family members, have the right to enter and stay without a visa for the entire period of their work.',
-    visa35: 'SARBON TRANS TOUR, 5. Introduction of the system for issuing electronic tourist visas (e-visa.gov.uz) for foreign citizens, which has simplified the procedure for issuing visas (list of countries in Appendix 1);',
+    visa35: 'SAHRO TRAVEL, 5. Introduction of the system for issuing electronic tourist visas (e-visa.gov.uz) for foreign citizens, which has simplified the procedure for issuing visas (list of countries in Appendix 1);',
     visa36: 'As of 15 March 2019, a new system of electronic entry visas with a validity period of 30 days was introduced:',
     visa37: 'Double entry with consular fee, multiple entry with consular fee. New option of short-term, visa-free transit entry into the Republic of Uzbekistan for a period of five days for citizens of several countries (list of countries in Appendix 2) introduced.',
     visa38: 'In this case, foreigners must enter through international airports of Uzbekistan and show the border guard that they have a flight ticket from the national airline “Uzbekistan Airways” to a third country.',
@@ -194,8 +213,8 @@ document.addEventListener('DOMContentLoaded', function () {
     none1: 'Unsere Kontakte:',
     none2: 'Heim',
     none3: 'Über uns',
-    none4: 'Reisepakete',
-    none5: 'Preise für Reisepakete',
+    none4: 'Reisetouren',
+    none5: 'Informationen',
     none6: 'Zugang',
     none7: 'Visum',
     none77: 'Wir stellen sicher, dass alle unsere Kunden die besten Dienstleistungen und Erfahrungen erhalten.',
@@ -206,6 +225,23 @@ document.addEventListener('DOMContentLoaded', function () {
     none82: 'Abonnieren:',
 
     
+    none700: 'Informationen',
+    visa200: 'Sehr gerne möchten wir Ihnen ein junges Land – Usbekistan näher bekanntmachen, dessen Geschichte auf uralte Zeiten zurückgeht. Usbekistan ist das Land der Sonne und des Lächelns. Hier lebt eine alte Volksgruppe, die sprachlich und kulturell zu den Turkvölkern gehört. Im Lauf der Jahrhunderte erlebte das Land sowohl Periode der Blütezeit und als auch des  Niedergangs.',
+    visa300: 'Es gibt durchaus zahlreiche Gründe, die Usbekistan als Klassiker von den anderen touristischen Destinationszielen attraktiver macht: die Aufgeschlossenheit und Gastfreundlichkeit der Menschen, facettenreiche Architektur  der legendären Städte auf alten Karawanenwegen, auf Familientraditionen bezogenes Handwerk und nicht zuletzt unberührte Flora sowie Fauna der grandiosen Gebirgs- und Wüstenlandschaft. All das trägt dazu bei, im faszinierenden Herzstück der Großen Seidenstraße einen perfekten Urlaub zu erleben!',
+    visa400: 'Die Reiseagentur „Sahro Travel“ organisiert und durchführt unterschiedliche Reisearten: Kulturreisen, Trekkingreisen, Wander- und Natureisen, Expeditionsreisen, kombinierte Reisen in Zentralasien, Ökoreisen, Radreisen, Pferdetouren in den Bergen, Kamelsafari in der Wüste, kulinarische Reisen, Inforeisen und Sondereisen. Demzufolge bieten wir Individualreisen mit großem Erfolg für  Familien- und Freunde, als auch für die Gleichgesinnten eine Gruppenreise an.',
+    visa500: 'Seit unserer Gründung im Jahre 2007 steht die Zufriedenheit, Leistung, Zuverlässigkeit, individuelle Betreuung und Kompetenz sowie Verantwortung im Vordergrund unseres Firmenkonzeptes. Unser Team besteht aus hochmotivierten, qualifizierten, dynamisch jungen Leuten, die hilfsbereit sind und sich rund um Uhr um die Kunden kümmern. Denn der Kunde ist König für uns!',
+    visa600: 'Wir bieten unseren Kunden und Partnern Hotelbuchungen, Transportleistungen und kompetenten   Reiseleitungen in verschiedenen Sprachen an.  Und für die fremden MICE Gruppen helfen wir, ihre Konferenzen, Sitzungen sowie Natur-, Wander- und Trekkingreisen in Tadschikistan und Kirgisistan zu organisieren.',
+    visa700: 'Unser Ziel ist es, eine unvergessliche Reise mit einem hohen Maß an Services bereitzustellen. Gerne möchten wir Ihnen die Region Zentralasien in verschiedenen Perspektiven, abwechslungsreich und spannend präsentieren. Deswegen bezieht sich unsere Erfahrung darauf, die Reise nach Ihrem Wunsch zu gestalten und diese „preiswerter“, „schneller“ sowie „besser“ zu organisieren.',
+    visa800: 'Lassen Sie Ihre Zeit und Ihre gewünschte Reise zu uns vertrauten! Sie können mit uns einen Kontakt aufnehmen und Ihre Reiseanfrage wird durch unseres hochqualifiziertes Personal so schnell wie möglich bearbeitet und zurückgesendet. Wir stehen Ihnen jederzeit gerne zur Verfügung!',
+    visa900: 'Zur Beantragung eines Visums müssen ausländische Staatsbürger und Staatenlose bei der diplomatischen Vertretung oder konsularischen Vertretung Usbekistans im Ausland folgende Unterlagen einreichen:',
+    visa470: 'Das Team von „Sahro Travel“ wünscht Ihnen eine wunderschöne Reise durch legendäre Städte der Großen Seidenstraße und Zentralasien',
+
+
+
+
+
+
+
 
     look1: 'Unser Service',
     look2: 'Visum',
@@ -213,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Fluglinien',
     look6: 'Eisenbahnen',
-    look7: 'Pakete',
+    look7: 'Reiseziele',
     look8: 'Kirgisistan',
     look9: 'Tadschikistan',
     look10: 'Turkmenistan',
@@ -239,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
     visa17: 'bis zu 7 Tage; bis zu 15 Tage; bis zu 30 Tage; bis zu 3 Monate; bis zu 6 Monate; bis zu 1 Jahr. Hinweis: Für jeden weiteren Eintrag erhöht sich die Gebühr um 10 $.',
     visa18: 'b- Für Visa für die mehrfache Einreise:',
     visa19: 'bis zu 6 Monaten; bis zu 1 Jahr. c) Für Transitvisa: bis zu 72 Stunden; Transitvisum für die doppelte Einreise. d) Für Gruppenvisa (Gruppen müssen aus mehr als 5 Personen bestehen, Kinder unter 16 Jahren ausgenommen).',
-    visa20: 'SARBON TRANS TOUR, [30.10.2022 20:56 Uhr] bis zu 15 Tage; bis zu 30 Tage.',
+    visa20: 'SAHRO TRAVEL, [30.10.2022 20:56 Uhr] bis zu 15 Tage; bis zu 30 Tage.',
     visa21: 'Außer diesen Gebühren werden auch die Gebühren für die Erstattung der tatsächlichen Kosten im Zusammenhang mit der Visumerteilung (Verwaltungsgebühren) gezahlt. Die Höhe dieser Gebühren hängt vom Ort der Visumerteilung ab (unabhängig von der Staatsbürgerschaft des Antragstellers).',
     visa22: '*Für Bürger der Länder, mit denen Usbekistan entsprechende bilaterale Abkommen geschlossen hat, gelten möglicherweise andere Verfahren zur Erteilung eines Einreisevisums.',
     visa23: 'Visabestimmungen für einige Länder',
@@ -254,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function () {
     visa32: '3. Visumfreie Einreise in die Republik Usbekistan für ausländische Staatsbürger bis 16 Jahre mit einem biometrischen Reisedokument. In diesem Fall müssen sie von einem gesetzlichen Vertreter begleitet werden und können sich für die Dauer des Visums der Begleitperson in Usbekistan aufhalten, jedoch nicht länger als neunzig Tage ab dem Datum der Einreise in das Land.',
     visa33: '4. Eine visumfreie Regelung gilt für China, Ungarn, Tadschikistan und Turkmenistan (bis zu 30 Tage), Vietnam und die Republik Korea (bis zu 60 Tage), Brasilien, Lettland, Polen, Rumänien, Singapur, die Slowakei, Estland, Kuwait und die Türkei (bis zu 90 Tage).',
     visa34: 'Bürger dieser Länder, die einen Diplomatenpass besitzen und als Mitarbeiter einer diplomatischen Mission oder eines Konsulats ihres Landes auf dem Gebiet Usbekistans akkreditiert sind, sowie deren Familienangehörige haben für die gesamte Dauer ihrer Arbeit das Recht auf Einreise und Aufenthalt ohne Visum.',
-    visa35: 'SARBON TRANS TOUR, 5. Einführung des Systems zur Ausstellung elektronischer Touristenvisa (e-visa.gov.uz) für ausländische Staatsbürger, das das Verfahren zur Visumserteilung vereinfacht hat (Liste der Länder in Anlage 1);',
+    visa35: 'SAHRO TRAVEL, 5. Einführung des Systems zur Ausstellung elektronischer Touristenvisa (e-visa.gov.uz) für ausländische Staatsbürger, das das Verfahren zur Visumserteilung vereinfacht hat (Liste der Länder in Anlage 1);',
     visa36: 'Ab dem 15. März 2019 wurde ein neues System elektronischer Einreisevisa mit einer Gültigkeitsdauer von 30 Tagen eingeführt:',
     visa37: 'Zweimalige Einreise mit Konsulargebühr, Mehrfache Einreise mit Konsulargebühr. Neue Möglichkeit der kurzfristigen, visumfreien Transiteinreise in die Republik Usbekistan für einen Zeitraum von fünf Tagen für Bürger mehrerer Länder (Länderliste in Anlage 2) eingeführt.',
     visa38: 'In diesem Fall müssen die Ausländer über internationale Flughäfen Usbekistans einreisen und dem Grenzbeamten vorzeigen, dass sie ein Flugticket der nationalen Fluggesellschaft „Uzbekistan Airways“ in ein Drittland besitzen.',

@@ -43,15 +43,15 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Airlines',
     look6: 'Railways',
-    look7: 'Packages',
+    look7: 'Destinations',
     look8: 'Kyrgyzstan',
     look9: 'Tajikistan',
     look10: 'Turkmenistan',
     look11: 'Uzbekistan',
     look12: 'Kazakhstan',
 
-    look13: 'Agency timeline',
-    look14: 'Entrust your time and your desired trip to us! You can contact us and your travel request will be processed and returned as quickly as possible by our highly qualified staff. We are always happy to help you!',
+    look13: 'About Us',
+    look14: 'SAHRO TRAVEL is a long-standing tour operator specializing in unforgettable journeys through Uzbekistan and Central Asia. Whether youre drawn to the rich history of the Great Silk Road or the regions stunning natural landscapes, were here to create the perfect adventure for you. We offer comprehensive cultural tours to legendary cities such as Samarkand, Bukhara, Khiva, Tashkent, Nukus, and Kokand—each with a unique history that has shaped the region for centuries. Adventure travelers can explore the breathtaking landscapes of mountains, deserts, steppes, and valleys with our active and eco-tours, including hikes through pristine nature. For those interested in history and environmental change, we organize exclusive trips to the Aral Sea, where you can witness firsthand the dramatic transformation of what was once the worlds second-largest inland sea. Our team has years of experience organizing individual and group tours to Uzbekistan and the wider Central Asian region. We also offer combined tours with neighboring countries for a more comprehensive exploration of this fascinating part of the world. In addition to our guided tours, we offer comprehensive travel services, including hotel reservations, visa assistance, transportation services, professional multilingual tour guides, and air and train ticket bookings in Uzbekistan. At SAHRO TRAVEL, we pride ourselves on creating customized itineraries that suit your interests, preferences, and budget. With our commitment to high-quality service at the best prices, we ensure your trip is smooth, enjoyable, and truly unforgettable. Discover the charm of the Orient with SAHRO TRAVEL—your gateway to Uzbekistan and Central Asia!',
     look15: 'Our story',
     look16: 'For those interested in history and environmental change, we organize exclusive trips to the Aral Sea, where you can experience first-hand the dramatic transformation of what was once the second largest inland sea in the world.',
     look17: 'We have assembled a team of dedicated and knowledgeable travel specialists',
@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
   
       
 
-    look13: 'Zeitleiste der Agentur',
-    look14: 'Lassen Sie Ihre Zeit und Ihre gewünschte Reise zu uns vertrauten! Sie können mit uns einen Kontakt aufnehmen und Ihre Reiseanfrage wird durch unseres hochqualifiziertes Personal so schnell wie möglich bearbeitet und zurückgesendet. Wir stehen Ihnen jederzeit gerne zur Verfügung!',
+    look13: 'Über uns',
+    look14: 'SAHRO TRAVEL ist ein mehrjahriger Reiseveranstalter, der sich auf unvergessliche Reisen durch Usbekistan und Zentralasien spezialisiert. Ob Sie sich von der reichen Geschichte der Großen Seidenstraße oder den atemberaubenden Naturlandschaften der Region angezogen fühlen, wir sind hier, um das perfekte Abenteuer für Sie zu gestalten.Wir bieten umfassende Kulturreisen in legendäre Städte wie Samarkand, Buchara, Chiwa, Taschkent, Nukus und Kokand an – jede mit einer einzigartigen Geschichte, die die Region seit Jahrhunderten geprägt hat. Abenteuerreisende können die atemberaubenden Landschaften der Berge, Wüsten, Steppen und Täler mit unseren Aktiv- und Ökoreisen erkunden, darunter Wanderungen durch unberührte Natur.Für alle, die sich für Geschichte und Umweltveränderungen interessieren, organisieren wir exklusive Reisen zum Aralsee, bei denen Sie die dramatische Transformation des einst zweitgrößten Binnenmeeres der Welt aus erster Hand miterleben können.Unser Team verfügt über jahrelange Erfahrung in der Organisation von Individuell- und Gruppenreisen nach Usbekistan und in die weitere Laender der zentralasiatischen Region. Wir bieten auch kombinierte Reisen mit Nachbarländern an, um diesen faszinierenden Teil der Welt umfassender zu erkunden.Zusätzlich zu unseren geführten Reisen bieten wir umfassende Reisedienstleistungen an, darunter Hotelreservierungen, Visa-Unterstützung, Transportservices, professionelle mehrsprachige Reiseleiter sowie Flug- und Zugticketbuchungen in Usbekistan.Bei SAHRO TRAVEL sind wir stolz darauf, maßgeschneiderte Reiserouten zu erstellen, die Ihren Interessen, Vorlieben und Ihrem Budget entsprechen. Mit unserem Engagement für qualitativ hochwertigen Service zu den besten Preisen sorgen wir dafür, dass Ihre Reise reibungslos, angenehm und wirklich unvergesslich wird.Entdecken Sie den Charme des Orients mit SAHRO TRAVEL – Ihrem Tor nach Usbekistan und Zentralasien!',
     look15: 'Unsere Geschichte',
     look16: 'Für alle, die sich für Geschichte und Umweltveränderungen interessieren, organisieren wir exklusive Reisen zum Aralsee, bei denen Sie die dramatische Transformation des einst zweitgrößten Binnenmeeres der Welt aus erster Hand miterleben können.',
     look17: 'Wir haben ein Team aus engagierten und sachkundigen Reisespezialisten zusammengestellt',

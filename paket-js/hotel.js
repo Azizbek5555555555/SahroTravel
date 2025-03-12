@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
     none1: 'Our contacts:',
     none2: 'home',
     none3: 'About Us',
-    none4: 'Travel packages',
-    none5: 'Travel package prices',
+    none4: 'Travel tours',
+    none5: 'Information',
     none6: 'Access',
     none7: 'Hotel',
     none77: 'We ensure that all our customers receive the best services and experiences.',
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Airlines',
     look6: 'Railways',
-    look7: 'Packages',
+    look7: 'Destinations',
     look8: 'Kyrgyzstan',
     look9: 'Tajikistan',
     look10: 'Turkmenistan',
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     hot1: 'Book your accommodation in Uzbekistan at the best price! Most hotels in Uzbekistan are located near historical sites, the airport and the railway stations. There are hundreds of recommended hotels in Uzbekistan for leisure and business travelers, from budget to luxury. Here you can book any hotel in any city at the best price! We guarantee cheaper prices than Booking.com, Expedia, Agoda, etc.',
     hot2: 'Request for tour',
-    hot3: 'Smoking All accommodation will be reserved as non-smoking rooms unless the client specifically requests a smoking room. Confirmation is subject to hotel availability. Payments For all contracted services, a certain amount of prepayment is required to hold the booking on a confirmed basis and the remaining balance can be paid either before your departure from your country or upon your arrival in Uzbekistan, but in any case before the commencement of the services. An agreement will be sent to the client along with the payment instructions. If you do not pay your balance by the agreed date, the Company reserves the right to cancel your booking or collect any outstanding amounts. All payments to SARBON TOURS should be free of bank charges and credit card transaction surcharges. SARBON TOUR is not responsible for any fees charged or collected by third parties and/or financial institutions payable by the Client as a result of credit card or other payment transactions related to the purchase of a tour and will not refund or repay any fees charged by such third parties in connection with payments made by Clients to SARBON TOURS. Cancellation Policy You may cancel your booking at any time provided you notify the Company in writing. All cancellations must be made by the person who submitted the booking form. Cancellations will incur the following fees: 30 days or more before departure - 10% of the booking cost 15-29 days before departure - 20% of the booking cost 1-14 days before departure - 50% of the booking cost',
+    hot3: 'Smoking All accommodation will be reserved as non-smoking rooms unless the client specifically requests a smoking room. Confirmation is subject to hotel availability. Payments For all contracted services, a certain amount of prepayment is required to hold the booking on a confirmed basis and the remaining balance can be paid either before your departure from your country or upon your arrival in Uzbekistan, but in any case before the commencement of the services. An agreement will be sent to the client along with the payment instructions. If you do not pay your balance by the agreed date, the Company reserves the right to cancel your booking or collect any outstanding amounts. All payments to SAHRO TRAVEL should be free of bank charges and credit card transaction surcharges. SAHRO TRAVEL is not responsible for any fees charged or collected by third parties and/or financial institutions payable by the Client as a result of credit card or other payment transactions related to the purchase of a tour and will not refund or repay any fees charged by such third parties in connection with payments made by Clients to SAHRO TRAVEL. Cancellation Policy You may cancel your booking at any time provided you notify the Company in writing. All cancellations must be made by the person who submitted the booking form. Cancellations will incur the following fees: 30 days or more before departure - 10% of the booking cost 15-29 days before departure - 20% of the booking cost 1-14 days before departure - 50% of the booking cost',
 
     
     
@@ -148,8 +148,8 @@ document.addEventListener('DOMContentLoaded', function () {
     none1: 'Unsere Kontakte:',
     none2: 'Heim',
     none3: 'Über uns',
-    none4: 'Reisepakete',
-    none5: 'Preise für Reisepakete',
+    none4: 'Reisetouren',
+    none5: 'Informationen',
     none6: 'Zugang',
     none7: 'Hotel',
     none77: 'Wir stellen sicher, dass alle unsere Kunden die besten Dienstleistungen und Erfahrungen erhalten.',
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Fluglinien',
     look6: 'Eisenbahnen',
-    look7: 'Pakete',
+    look7: 'Reiseziele',
     look8: 'Kirgisistan',
     look9: 'Tadschikistan',
     look10: 'Turkmenistan',
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     hot1: 'Buchen Sie Ihre Unterkunft in Usbekistan zum besten Preis! Die meisten Hotels in Usbekistan befinden sich in der Nähe historischer Stätten, des Flughafens und der Bahnhöfe. Es gibt Hunderte empfehlenswerter Hotels in Usbekistan für Urlauber und Geschäftsreisende, von günstig bis luxuriös. Hier können Sie jedes Hotel in jeder Stadt zum besten Preis buchen! Wir garantieren günstigere Preise als Booking.com, Expedia, Agoda usw.',
     hot2: 'Anfrage für Tour',
-    hot3: 'Rauchen Alle Unterkünfte werden als Nichtraucherzimmer reserviert, es sei denn, der Kunde verlangt ausdrücklich ein Raucherzimmer. Die Bestätigung hängt von der Verfügbarkeit des Hotels ab. Zahlungen Für alle vertraglich vereinbarten Dienstleistungen muss eine bestimmte Vorauszahlung geleistet werden, um die Buchung auf bestätigter Basis zu halten, und der Restbetrag kann entweder vor Ihrer Abreise aus Ihrem Land oder bei Ihrer Ankunft in Usbekistan, jedoch auf jeden Fall vor Beginn der Dienstleistungen, bezahlt werden. Zusammen mit den Zahlungsanweisungen wird dem Kunden eine Vereinbarung zugesandt. Wenn Sie Ihren Restbetrag nicht bis zum vereinbarten Zeitpunkt bezahlen, behält sich das Unternehmen das Recht vor, Ihre Buchung zu stornieren oder ausstehende Beträge einzufordern. Alle Zahlungen an SARBON TOURS sollten frei von Bankgebühren und Kreditkartentransaktionszuschlägen sein. SARBON TOUR ist nicht verantwortlich für Gebühren, die von Dritten und/oder Finanzinstituten erhoben oder eingezogen werden und vom Kunden als Folge von Kreditkarten- oder anderen Zahlungstransaktionen im Zusammenhang mit dem Kauf einer Tour zu zahlen sind, und wird keine Gebühren zurückerstatten oder zurückzahlen, die von solchen Dritten im Zusammenhang mit Zahlungen von Kunden an SARBON TOURS erhoben werden. Stornierungsbedingungen Sie können Ihre Buchung jederzeit stornieren, sofern Sie das Unternehmen schriftlich benachrichtigen. Alle Stornierungen müssen von der Person vorgenommen werden, die das Buchungsformular eingereicht hat. Bei Stornierungen werden folgende Gebühren erhoben: 30 Tage oder mehr vor Abreise – 10 % der Buchungskosten 15-29 Tage vor Abreise – 20 % der Buchungskosten 1-14 Tage vor Abreise – 50 % der Buchungskosten',
+    hot3: 'Rauchen Alle Unterkünfte werden als Nichtraucherzimmer reserviert, es sei denn, der Kunde verlangt ausdrücklich ein Raucherzimmer. Die Bestätigung hängt von der Verfügbarkeit des Hotels ab. Zahlungen Für alle vertraglich vereinbarten Dienstleistungen muss eine bestimmte Vorauszahlung geleistet werden, um die Buchung auf bestätigter Basis zu halten, und der Restbetrag kann entweder vor Ihrer Abreise aus Ihrem Land oder bei Ihrer Ankunft in Usbekistan, jedoch auf jeden Fall vor Beginn der Dienstleistungen, bezahlt werden. Zusammen mit den Zahlungsanweisungen wird dem Kunden eine Vereinbarung zugesandt. Wenn Sie Ihren Restbetrag nicht bis zum vereinbarten Zeitpunkt bezahlen, behält sich das Unternehmen das Recht vor, Ihre Buchung zu stornieren oder ausstehende Beträge einzufordern. Alle Zahlungen an SAHRO TRAVEL sollten frei von Bankgebühren und Kreditkartentransaktionszuschlägen sein. SAHRO TRAVEL ist nicht verantwortlich für Gebühren, die von Dritten und/oder Finanzinstituten erhoben oder eingezogen werden und vom Kunden als Folge von Kreditkarten- oder anderen Zahlungstransaktionen im Zusammenhang mit dem Kauf einer Tour zu zahlen sind, und wird keine Gebühren zurückerstatten oder zurückzahlen, die von solchen Dritten im Zusammenhang mit Zahlungen von Kunden an SAHRO TRAVEL erhoben werden. Stornierungsbedingungen Sie können Ihre Buchung jederzeit stornieren, sofern Sie das Unternehmen schriftlich benachrichtigen. Alle Stornierungen müssen von der Person vorgenommen werden, die das Buchungsformular eingereicht hat. Bei Stornierungen werden folgende Gebühren erhoben: 30 Tage oder mehr vor Abreise – 10 % der Buchungskosten 15-29 Tage vor Abreise – 20 % der Buchungskosten 1-14 Tage vor Abreise – 50 % der Buchungskosten',
 
     
     

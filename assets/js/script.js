@@ -430,11 +430,27 @@ document.addEventListener('DOMContentLoaded', function () {
     we51: 'Travel packages',
     we52: 'Travel packages-2',
 
+    none700: 'Information',
+    visa200: 'We would like to introduce you to a young country – Uzbekistan, whose history goes back to ancient times. Uzbekistan is the land of the sun and smiles. Here lives an ancient ethnic group, which linguistically and culturally belongs to the Turkic peoples. Over the centuries, the country has experienced both periods of prosperity and decline.',
+    visa300: 'There are many reasons that make Uzbekistan a classic destination more attractive than other tourist locations: the openness and hospitality of the people, the diverse architecture of the legendary cities along ancient caravan routes, handicrafts related to family traditions, and last but not least, the untouched flora and fauna of the magnificent mountain and desert landscapes. All of this contributes to an unforgettable vacation in the fascinating heart of the Great Silk Road!',
+    visa400: 'The travel agency "Sahro Travel" organizes and conducts various types of tours: cultural trips, trekking tours, hiking and nature trips, expedition tours, combined tours in Central Asia, eco-tours, cycling tours, horse trekking in the mountains, camel safaris in the desert, culinary tours, informational trips, and special tours. Therefore, we offer individual tours with great success for families and friends, as well as group tours for like-minded people.',
+    visa500: 'Since our founding in 2007, customer satisfaction, performance, reliability, individual service, competence, and responsibility have been the focus of our company concept. Our team consists of highly motivated, qualified, dynamic young people who are helpful and take care of customers around the clock. After all, the customer is king for us!',
+    visa600: 'We offer our customers and partners hotel bookings, transportation services, and competent tour guides in various languages. For foreign MICE groups, we assist in organizing their conferences, meetings, as well as nature, hiking, and trekking trips in Tajikistan and Kyrgyzstan.',
+    visa700: 'Our goal is to provide an unforgettable journey with a high level of service. We would like to present the Central Asia region to you from different perspectives, diverse and exciting. Therefore, our experience is focused on designing the trip according to your wishes and organizing it "cheaper", "faster", and "better".',
+    visa800: 'Let your time and desired trip be trusted to us! You can contact us, and your travel request will be processed and returned as quickly as possible by our highly qualified staff. We are always available to assist you!',
+    visa900: 'To apply for a visa, foreign nationals and stateless persons must submit the following documents to the diplomatic or consular representation of Uzbekistan abroad:',
+    visa470: 'The "Sahro Travel" team wishes you a wonderful journey through the legendary cities of the Great Silk Road and Central Asia.',
+    
+
+
+
+
+
     none1: 'Our contacts:',
     none2: 'home',
     none3: 'About Us',
-    none4: 'Travel packages',
-    none5: 'Travel package prices',
+    none4: 'Travel tours',
+    none5: 'Information',
     none6: 'Access',
     none7: 'Hundreds of fantastic travel destinations',
     none8: 'Our team is ready to provide you with unique travel insights every week, including photos, videos and articles about uncharted tourist trails. We know everything about the places youve never been!',
@@ -465,7 +481,7 @@ document.addEventListener('DOMContentLoaded', function () {
     none33: 'Ashgabat-Almay',
     none34: 'group',
     none35: 'Travel package prices',
-    none36: 'Order our travel packages',
+    none36: 'Order our travel Tours',
     none37: 'We offer great tours for tourists around Uzbekistan',
     none38: 'Guaranteed trip to the “Heart of Asia” Uzbekistan in 2024',
     none39: 'Group tours for Uzbekistan 2024 represent a classic excursion program to the most important cities - Tashkent, Samarkand and Bukhara. The true heart of Central Asian splendor!',
@@ -553,7 +569,7 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Airlines',
     look6: 'Railways',
-    look7: 'Packages',
+    look7: 'Destinations',
     look8: 'Kyrgyzstan',
     look9: 'Tajikistan',
     look10: 'Turkmenistan',
@@ -896,11 +912,26 @@ document.addEventListener('DOMContentLoaded', function () {
     we51: 'Reisepakete',
     we52: 'Reisepakete-2',
 
+
+
+    none700: 'Informationen',
+    visa200: 'Sehr gerne möchten wir Ihnen ein junges Land – Usbekistan näher bekanntmachen, dessen Geschichte auf uralte Zeiten zurückgeht. Usbekistan ist das Land der Sonne und des Lächelns. Hier lebt eine alte Volksgruppe, die sprachlich und kulturell zu den Turkvölkern gehört. Im Lauf der Jahrhunderte erlebte das Land sowohl Periode der Blütezeit und als auch des  Niedergangs.',
+    visa300: 'Es gibt durchaus zahlreiche Gründe, die Usbekistan als Klassiker von den anderen touristischen Destinationszielen attraktiver macht: die Aufgeschlossenheit und Gastfreundlichkeit der Menschen, facettenreiche Architektur  der legendären Städte auf alten Karawanenwegen, auf Familientraditionen bezogenes Handwerk und nicht zuletzt unberührte Flora sowie Fauna der grandiosen Gebirgs- und Wüstenlandschaft. All das trägt dazu bei, im faszinierenden Herzstück der Großen Seidenstraße einen perfekten Urlaub zu erleben!',
+    visa400: 'Die Reiseagentur „Sahro Travel“ organisiert und durchführt unterschiedliche Reisearten: Kulturreisen, Trekkingreisen, Wander- und Natureisen, Expeditionsreisen, kombinierte Reisen in Zentralasien, Ökoreisen, Radreisen, Pferdetouren in den Bergen, Kamelsafari in der Wüste, kulinarische Reisen, Inforeisen und Sondereisen. Demzufolge bieten wir Individualreisen mit großem Erfolg für  Familien- und Freunde, als auch für die Gleichgesinnten eine Gruppenreise an.',
+    visa500: 'Seit unserer Gründung im Jahre 2007 steht die Zufriedenheit, Leistung, Zuverlässigkeit, individuelle Betreuung und Kompetenz sowie Verantwortung im Vordergrund unseres Firmenkonzeptes. Unser Team besteht aus hochmotivierten, qualifizierten, dynamisch jungen Leuten, die hilfsbereit sind und sich rund um Uhr um die Kunden kümmern. Denn der Kunde ist König für uns!',
+    visa600: 'Wir bieten unseren Kunden und Partnern Hotelbuchungen, Transportleistungen und kompetenten   Reiseleitungen in verschiedenen Sprachen an.  Und für die fremden MICE Gruppen helfen wir, ihre Konferenzen, Sitzungen sowie Natur-, Wander- und Trekkingreisen in Tadschikistan und Kirgisistan zu organisieren.',
+    visa700: 'Unser Ziel ist es, eine unvergessliche Reise mit einem hohen Maß an Services bereitzustellen. Gerne möchten wir Ihnen die Region Zentralasien in verschiedenen Perspektiven, abwechslungsreich und spannend präsentieren. Deswegen bezieht sich unsere Erfahrung darauf, die Reise nach Ihrem Wunsch zu gestalten und diese „preiswerter“, „schneller“ sowie „besser“ zu organisieren.',
+    visa800: 'Lassen Sie Ihre Zeit und Ihre gewünschte Reise zu uns vertrauten! Sie können mit uns einen Kontakt aufnehmen und Ihre Reiseanfrage wird durch unseres hochqualifiziertes Personal so schnell wie möglich bearbeitet und zurückgesendet. Wir stehen Ihnen jederzeit gerne zur Verfügung!',
+    visa900: 'Zur Beantragung eines Visums müssen ausländische Staatsbürger und Staatenlose bei der diplomatischen Vertretung oder konsularischen Vertretung Usbekistans im Ausland folgende Unterlagen einreichen:',
+    visa470: 'Das Team von „Sahro Travel“ wünscht Ihnen eine wunderschöne Reise durch legendäre Städte der Großen Seidenstraße und Zentralasien',
+
+
+
     none1: 'Unsere Kontakte:',
     none2: 'Heim',
     none3: 'Über uns',
-    none4: 'Reisepakete',
-    none5: 'Preise für Reisepakete',
+    none4: 'Reisetouren',
+    none5: 'Informationen',
     none6: 'Zugang',
     none7: 'Hunderte fantastische Reiseziele',
     none8: 'Unser Team ist bereit, Ihnen wöchentlich einzigartige Reiseeinblicke zu liefern, darunter Fotos, Videos und Artikel über unbekannte Touristenpfade. Wir wissen alles über die Orte, an denen Sie noch nie waren!',
@@ -1015,7 +1046,7 @@ document.addEventListener('DOMContentLoaded', function () {
     look4: 'Transport',
     look5: 'Fluglinien',
     look6: 'Eisenbahnen',
-    look7: 'Pakete',
+    look7: 'Reiseziele',
     look8: 'Kirgisistan',
     look9: 'Tadschikistan',
     look10: 'Turkmenistan',
